@@ -372,3 +372,11 @@
   {
     opacity:0.4;
   }
+
+
+  /* My code */
+  .footer-row{
+      display:flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
