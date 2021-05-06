@@ -1,13 +1,6 @@
-$( window ).resize( function() {
-  centerSplash();
-});
-
 !function($){
-
     "use strict";
-
     var Typed = function(el, options){
-
         // chosen element to manipulate text
         this.el = $(el);
         // options
@@ -222,7 +215,6 @@ $( window ).resize( function() {
 
 
 $(function(){
-
         $("#typed").typed({
             strings: ["web developer","geek","human being"], //Strings to display when typing
             typeSpeed: 40,
@@ -234,5 +226,4 @@ $(function(){
         });
 
         function foo(){ console.log("Callback"); }
-
     });
