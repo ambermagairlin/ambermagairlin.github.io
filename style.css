@@ -380,3 +380,6 @@
       justify-content: center;
       flex-wrap: wrap;
   }
+  footer{
+    background-color: black;
+  }
